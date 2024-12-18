@@ -12,12 +12,12 @@
         <legend>Sign Up Form</legend>
         <div>
           <label for="">Username</label><br />
-          <input type="text" />
+          <input type="text" required="required" />
         </div>
 
         <div>
           <label for="">Your Email Address</label><br />
-          <input type="email" />
+          <input type="email" required="required" />
         </div>
 
         <div>
@@ -26,13 +26,16 @@
         </div>
 
         <div>
-          <label for="">dob</label><br />
+          <label for="">Date Of Birth</label><br />
           <input type="date" />
         </div>
 
         <div>
-          <label for="">upload</label><br />
-          <input type="file" accept="image/*" />
+          <label for="">Upload File</label><br />
+          <input
+            type="file"
+            accept=".jpg, .jpeg, .png, .pdf, .ppt, .pptx, .doc, .docx"
+          />
         </div>
 
         <div>
@@ -40,9 +43,7 @@
           <input type="password" />
         </div>
 
-        <div>
-          <input type="submit" value="Signup" />
-        </div>
+        <input type="submit" value="Signup" />
       </fieldset>
     </form>
   </body>
